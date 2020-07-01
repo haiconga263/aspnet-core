@@ -518,3 +518,831 @@ INFO  2020-06-30 17:00:16,486 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics -
 INFO  2020-06-30 17:00:16,512 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 356.0783ms
 INFO  2020-06-30 17:00:16,514 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
 INFO  2020-06-30 17:00:16,517 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 390.6976ms 200 application/json; charset=utf-8
+DEBUG 2020-06-30 17:15:22,781 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-06-30 17:15:22,867 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-06-30 17:15:22,898 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,901 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,902 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:22,908 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-06-30 17:15:23,021 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-30 17:15:23,021 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-30 17:15:23,021 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-30 17:15:23,021 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-06-30 17:15:23,651 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-06-30 17:15:25,103 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-06-30 17:15:25,156 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-06-30 17:15:25,179 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-06-30 17:15:25,194 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-06-30 17:15:25,203 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-06-30 17:15:25,502 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-06-30 17:15:25,679 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-06-30 17:15:25,747 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-06-30 17:15:25,747 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-06-30 17:15:25,753 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-06-30 17:15:25,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-06-30 17:15:25,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-06-30 17:15:25,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-06-30 17:15:25,754 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-06-30 17:15:25,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-06-30 17:15:25,755 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-06-30 17:15:25,756 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-06-30 17:15:29,614 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-06-30 17:15:29,981 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-06-30 17:15:30,063 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-06-30 17:15:30,228 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:15:35,207 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-06-30 17:15:36,745 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-06-30 17:15:36,754 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.3355ms.
+INFO  2020-06-30 17:15:37,003 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-06-30 17:15:37,013 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 1799.2414ms
+INFO  2020-06-30 17:15:37,015 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:15:37,041 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-06-30 17:15:37,042 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6976.2116ms 302 
+INFO  2020-06-30 17:15:37,143 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 99.901ms 200 text/html;charset=utf-8
+INFO  2020-06-30 17:15:37,322 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-06-30 17:15:37,332 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:15:37,353 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-06-30 17:15:37,369 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-06-30 17:15:37,417 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-06-30 17:15:37,435 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 14.9167ms.
+INFO  2020-06-30 17:15:37,471 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-06-30 17:15:37,695 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 339.2776ms
+INFO  2020-06-30 17:15:37,697 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:15:37,700 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 381.2364ms 200 application/json; charset=utf-8
+INFO  2020-06-30 17:15:37,732 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 367.2029ms 200 application/json;charset=utf-8
+INFO  2020-06-30 17:16:14,574 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 136
+INFO  2020-06-30 17:16:14,585 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-06-30 17:16:14,591 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-06-30 17:16:14,604 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-06-30 17:16:14,634 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-06-30 17:16:15,519 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+ERROR 2020-06-30 17:16:15,824 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at DEM.Project.Authorization.Users.UserRegistrationManager.CheckForTenant() in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at DEM.Project.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at DEM.Project.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Application\Authorization\Accounts\AccountAppService.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-06-30 17:16:16,295 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-06-30 17:16:16,306 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 1670.2934ms
+INFO  2020-06-30 17:16:16,310 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-06-30 17:16:16,313 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1738.9653ms 500 application/json; charset=utf-8
+INFO  2020-06-30 17:16:33,634 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 136
+INFO  2020-06-30 17:16:33,639 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-06-30 17:16:33,644 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-06-30 17:16:33,658 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-06-30 17:16:33,672 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-06-30 17:16:33,719 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+ERROR 2020-06-30 17:16:33,902 [4    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at DEM.Project.Authorization.Users.UserRegistrationManager.CheckForTenant() in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at DEM.Project.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at DEM.Project.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Application\Authorization\Accounts\AccountAppService.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-06-30 17:16:33,930 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-06-30 17:16:33,937 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 261.7513ms
+INFO  2020-06-30 17:16:33,940 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-06-30 17:16:33,951 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 322.4092ms 500 application/json; charset=utf-8
+INFO  2020-06-30 17:16:41,999 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-06-30 17:16:42,004 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:16:42,016 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-06-30 17:16:42,063 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-06-30 17:16:42,068 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.2914ms.
+INFO  2020-06-30 17:16:42,115 [9    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-06-30 17:16:42,118 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 98.6191ms
+INFO  2020-06-30 17:16:42,121 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:16:42,124 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 125.8301ms 302 
+INFO  2020-06-30 17:16:42,133 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-06-30 17:16:42,140 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.0218ms 200 text/html;charset=utf-8
+INFO  2020-06-30 17:16:42,364 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-06-30 17:16:42,372 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:16:42,396 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-06-30 17:16:42,457 [9    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-06-30 17:16:42,459 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-06-30 17:16:42,468 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 5.1814ms.
+INFO  2020-06-30 17:16:42,507 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-06-30 17:16:42,519 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 112.4512ms
+INFO  2020-06-30 17:16:42,524 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-06-30 17:16:42,535 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 165.2874ms 200 application/json; charset=utf-8
+INFO  2020-06-30 17:16:42,567 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.9251ms 200 application/json;charset=utf-8
+INFO  2020-06-30 17:17:21,130 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/ResetPassword application/json-patch+json 58
+INFO  2020-06-30 17:17:21,135 [7    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-06-30 17:17:21,139 [7    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-06-30 17:17:21,145 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Users.UserAppService.ResetPassword (DEM.Project.Application)'
+INFO  2020-06-30 17:17:21,161 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "ResetPassword", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] ResetPassword(DEM.Project.Users.Dto.ResetPasswordDto) on controller DEM.Project.Users.UserAppService (DEM.Project.Application).
+WARN  2020-06-30 17:17:21,183 [7    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-06-30 17:17:21,186 [7    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-06-30 17:17:21,190 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-06-30 17:17:21,194 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Users.UserAppService.ResetPassword (DEM.Project.Application) in 30.4193ms
+INFO  2020-06-30 17:17:21,197 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Users.UserAppService.ResetPassword (DEM.Project.Application)'
+INFO  2020-06-30 17:17:21,200 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 71.4413ms 401 application/json; charset=utf-8
+DEBUG 2020-07-01 08:56:27,915 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-01 08:56:28,317 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-01 08:56:28,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,346 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,347 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,348 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,349 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,350 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,350 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,350 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,350 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:28,353 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-01 08:56:28,518 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:56:28,518 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:56:28,518 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:56:28,518 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:56:29,222 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:56:30,566 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-01 08:56:30,618 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-01 08:56:30,634 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-01 08:56:30,642 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-07-01 08:56:30,650 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-01 08:56:30,992 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-01 08:56:31,153 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-01 08:56:31,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-07-01 08:56:31,232 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-01 08:56:31,238 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-07-01 08:56:31,238 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-07-01 08:56:31,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-01 08:56:31,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-01 08:56:31,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-07-01 08:56:31,239 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-07-01 08:56:31,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-01 08:56:31,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-07-01 08:56:35,276 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-01 08:56:35,760 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-01 08:56:35,858 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-07-01 08:56:35,990 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:56:41,035 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-07-01 08:56:42,500 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 08:56:42,507 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.6166ms.
+INFO  2020-07-01 08:56:42,786 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-07-01 08:56:42,797 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 1752.0267ms
+INFO  2020-07-01 08:56:42,800 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:56:42,820 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 08:56:42,826 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6968.4243ms 302 
+INFO  2020-07-01 08:56:42,914 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 93.236ms 200 text/html;charset=utf-8
+INFO  2020-07-01 08:56:42,964 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2020-07-01 08:56:42,964 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2020-07-01 08:56:42,992 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2020-07-01 08:56:43,004 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2020-07-01 08:56:43,015 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.761ms 304 application/javascript
+INFO  2020-07-01 08:56:43,019 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 57.7866ms 304 application/javascript
+INFO  2020-07-01 08:56:43,098 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 08:56:43,113 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:56:43,161 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-07-01 08:56:43,179 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 08:56:43,302 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 08:56:43,319 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 14.3773ms.
+INFO  2020-07-01 08:56:43,442 [4    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 08:56:43,598 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 439.5546ms 200 application/json;charset=utf-8
+INFO  2020-07-01 08:56:43,694 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 530.6319ms
+INFO  2020-07-01 08:56:43,698 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:56:43,703 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 606.0372ms 200 application/json; charset=utf-8
+INFO  2020-07-01 08:57:19,762 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 136
+INFO  2020-07-01 08:57:19,771 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 08:57:19,773 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 08:57:19,781 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 08:57:19,812 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 08:57:20,597 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+ERROR 2020-07-01 08:57:20,941 [13   ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at DEM.Project.Authorization.Users.UserRegistrationManager.CheckForTenant() in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at DEM.Project.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at DEM.Project.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Application\Authorization\Accounts\AccountAppService.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-07-01 08:57:21,470 [13   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 08:57:21,482 [13   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 1666.9045ms
+INFO  2020-07-01 08:57:21,485 [13   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 08:57:21,490 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1726.4135ms 500 application/json; charset=utf-8
+DEBUG 2020-07-01 08:58:58,801 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-01 08:58:59,009 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-01 08:58:59,052 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,055 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,057 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,058 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,059 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,066 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,067 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:58:59,074 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-01 08:58:59,168 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:58:59,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:58:59,168 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:58:59,168 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 08:58:59,759 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 08:59:01,099 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-01 08:59:01,145 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-01 08:59:01,158 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-01 08:59:01,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-07-01 08:59:01,171 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-01 08:59:01,623 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-01 08:59:01,828 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-01 08:59:01,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-07-01 08:59:01,900 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-01 08:59:01,909 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-07-01 08:59:01,910 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-07-01 08:59:01,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-01 08:59:01,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-01 08:59:01,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-07-01 08:59:01,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-07-01 08:59:01,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-01 08:59:01,913 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-07-01 08:59:05,656 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-01 08:59:06,056 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-01 08:59:06,140 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-07-01 08:59:06,261 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:59:11,416 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-07-01 08:59:12,984 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 08:59:12,999 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.8782ms.
+INFO  2020-07-01 08:59:13,260 [5    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-07-01 08:59:13,269 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 1845.3433ms
+INFO  2020-07-01 08:59:13,271 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:59:13,298 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 08:59:13,312 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7163.2032ms 302 
+INFO  2020-07-01 08:59:13,404 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 107.8184ms 200 text/html;charset=utf-8
+INFO  2020-07-01 08:59:13,555 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 08:59:13,563 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:59:13,576 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-07-01 08:59:13,624 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 08:59:13,625 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 08:59:13,644 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 13.7985ms.
+INFO  2020-07-01 08:59:13,696 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 08:59:13,972 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 311.5378ms 200 application/json;charset=utf-8
+INFO  2020-07-01 08:59:13,984 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 394.3237ms
+INFO  2020-07-01 08:59:14,022 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 08:59:14,039 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 471.6531ms 200 application/json; charset=utf-8
+INFO  2020-07-01 08:59:25,707 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 137
+INFO  2020-07-01 08:59:25,718 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 08:59:25,722 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 08:59:25,728 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 08:59:25,763 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 08:59:26,544 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+ERROR 2020-07-01 08:59:26,796 [5    ] Mvc.ExceptionHandling.AbpExceptionFilter - Can not register host users!
+System.InvalidOperationException: Can not register host users!
+   at DEM.Project.Authorization.Users.UserRegistrationManager.CheckForTenant() in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 79
+   at DEM.Project.Authorization.Users.UserRegistrationManager.RegisterAsync(String name, String surname, String emailAddress, String userName, String plainPassword, Boolean isEmailConfirmed) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Core\Authorization\Users\UserRegistrationManager.cs:line 42
+   at DEM.Project.Authorization.Accounts.AccountAppService.Register(RegisterInput input) in C:\Users\Tran Dinh Hiep\Desktop\5.6.0\aspnet-core\src\DEM.Project.Application\Authorization\Accounts\AccountAppService.cs:line 40
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2020-07-01 08:59:27,219 [5    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 08:59:27,231 [5    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 1464.3943ms
+INFO  2020-07-01 08:59:27,237 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 08:59:27,240 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1533.3521ms 500 application/json; charset=utf-8
+DEBUG 2020-07-01 09:57:17,222 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-01 09:57:17,468 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-01 09:57:17,484 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,486 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,487 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,488 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,489 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:17,492 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-01 09:57:17,692 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:57:17,692 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:57:17,692 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:57:17,692 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:57:18,318 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:57:18,908 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-01 09:57:18,968 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-01 09:57:18,986 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-01 09:57:18,991 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-07-01 09:57:19,001 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-01 09:57:19,086 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-01 09:57:19,123 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-01 09:57:19,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-07-01 09:57:19,168 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-01 09:57:19,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-07-01 09:57:19,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-07-01 09:57:19,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-01 09:57:19,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-01 09:57:19,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-07-01 09:57:19,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-07-01 09:57:19,176 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-01 09:57:19,176 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-07-01 09:57:21,970 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-01 09:57:22,392 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-01 09:57:22,438 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-07-01 09:57:22,623 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:57:24,139 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-07-01 09:57:24,850 [11   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-07-01 09:57:24,855 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 711.9898ms
+INFO  2020-07-01 09:57:24,855 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:57:24,868 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2430.1622ms 302 
+INFO  2020-07-01 09:57:24,872 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 09:57:24,937 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 64.4406ms 200 text/html;charset=utf-8
+INFO  2020-07-01 09:57:25,074 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 09:57:25,083 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:57:25,091 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-07-01 09:57:25,109 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 09:57:25,122 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 09:57:25,299 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 207.5418ms
+INFO  2020-07-01 09:57:25,299 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:57:25,300 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 226.4706ms 200 application/json; charset=utf-8
+INFO  2020-07-01 09:57:25,355 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 246.1252ms 200 application/json;charset=utf-8
+INFO  2020-07-01 09:58:40,852 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json-patch+json 153
+INFO  2020-07-01 09:58:40,859 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 09:58:40,859 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 09:58:40,862 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:58:40,889 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Users.Dto.UserDto] CreateAsync(DEM.Project.Users.Dto.CreateUserDto) on controller DEM.Project.Users.UserAppService (DEM.Project.Application).
+WARN  2020-07-01 09:58:41,041 [11   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 09:58:41,043 [11   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-07-01 09:58:41,044 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 09:58:41,054 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application) in 165.468ms
+INFO  2020-07-01 09:58:41,054 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:58:41,055 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 203.4938ms 401 application/json; charset=utf-8
+INFO  2020-07-01 09:58:42,476 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json-patch+json 153
+INFO  2020-07-01 09:58:42,480 [20   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 09:58:42,480 [20   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 09:58:42,494 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:58:42,505 [20   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Users.Dto.UserDto] CreateAsync(DEM.Project.Users.Dto.CreateUserDto) on controller DEM.Project.Users.UserAppService (DEM.Project.Application).
+WARN  2020-07-01 09:58:42,513 [20   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 09:58:42,514 [20   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-07-01 09:58:42,515 [20   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 09:58:42,519 [20   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application) in 14.2302ms
+INFO  2020-07-01 09:58:42,520 [20   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:58:42,523 [20   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 46.8951ms 401 application/json; charset=utf-8
+INFO  2020-07-01 09:58:43,908 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json-patch+json 153
+INFO  2020-07-01 09:58:43,909 [11   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 09:58:43,909 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 09:58:43,911 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:58:43,920 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Users.Dto.UserDto] CreateAsync(DEM.Project.Users.Dto.CreateUserDto) on controller DEM.Project.Users.UserAppService (DEM.Project.Application).
+WARN  2020-07-01 09:58:43,924 [11   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 09:58:43,926 [11   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-07-01 09:58:43,926 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 09:58:43,928 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application) in 8.1584ms
+INFO  2020-07-01 09:58:43,929 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:58:43,929 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 21.2794ms 401 application/json; charset=utf-8
+DEBUG 2020-07-01 09:59:35,961 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-01 09:59:36,153 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-01 09:59:36,195 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,205 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:36,209 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-01 09:59:36,321 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:59:36,321 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:59:36,321 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:59:36,321 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 09:59:36,780 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 09:59:38,169 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-01 09:59:38,231 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-01 09:59:38,250 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-01 09:59:38,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-07-01 09:59:38,265 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-01 09:59:38,604 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-01 09:59:38,787 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-01 09:59:38,883 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-07-01 09:59:38,883 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-01 09:59:38,894 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-07-01 09:59:38,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-07-01 09:59:38,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-01 09:59:38,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-01 09:59:38,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-07-01 09:59:38,895 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-07-01 09:59:38,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-01 09:59:38,896 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-07-01 09:59:42,377 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-01 09:59:42,760 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-01 09:59:42,849 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/User/Create application/json-patch+json 153
+INFO  2020-07-01 09:59:42,849 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-07-01 09:59:42,863 [9    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 09:59:42,865 [9    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 09:59:42,978 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:59:42,980 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:59:48,242 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-07-01 09:59:48,250 [9    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Create", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Users.Dto.UserDto] CreateAsync(DEM.Project.Users.Dto.CreateUserDto) on controller DEM.Project.Users.UserAppService (DEM.Project.Application).
+WARN  2020-07-01 09:59:49,188 [9    ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 09:59:49,245 [9    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2020-07-01 09:59:49,264 [9    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 09:59:49,657 [9    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application) in 1392.3529ms
+INFO  2020-07-01 09:59:49,665 [9    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Users.UserAppService.CreateAsync (DEM.Project.Application)'
+INFO  2020-07-01 09:59:49,713 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6867.0479ms 401 application/json; charset=utf-8
+INFO  2020-07-01 09:59:50,106 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 09:59:50,114 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5752ms.
+INFO  2020-07-01 09:59:50,328 [4    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-07-01 09:59:50,332 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 2087.3614ms
+INFO  2020-07-01 09:59:50,334 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:59:50,338 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 7492.7381ms 302 
+INFO  2020-07-01 09:59:50,343 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 09:59:50,409 [9    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 65.397ms 200 text/html;charset=utf-8
+INFO  2020-07-01 09:59:50,561 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 09:59:50,568 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:59:50,593 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-07-01 09:59:50,644 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 09:59:50,645 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 09:59:50,706 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 23.2185ms.
+INFO  2020-07-01 09:59:50,748 [10   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 09:59:50,757 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 155.5828ms
+INFO  2020-07-01 09:59:50,761 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 09:59:50,767 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 205.0015ms 200 application/json; charset=utf-8
+INFO  2020-07-01 09:59:50,922 [13   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 280.5989ms 200 application/json;charset=utf-8
+INFO  2020-07-01 10:01:14,087 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 137
+INFO  2020-07-01 10:01:14,096 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:01:14,099 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:01:14,109 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:01:14,128 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 10:01:14,868 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+DEBUG 2020-07-01 10:04:11,412 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-01 10:04:12,003 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-01 10:04:12,033 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,037 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,038 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:12,045 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-01 10:04:12,233 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:04:12,233 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:04:12,233 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:04:12,233 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:04:12,875 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:04:14,274 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-01 10:04:14,336 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-01 10:04:14,350 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-01 10:04:14,357 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-07-01 10:04:14,365 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-01 10:04:14,659 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-01 10:04:14,843 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-01 10:04:14,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-07-01 10:04:14,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-01 10:04:14,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-07-01 10:04:14,921 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-07-01 10:04:14,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-01 10:04:14,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-01 10:04:14,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-07-01 10:04:14,922 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-07-01 10:04:14,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-01 10:04:14,923 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-07-01 10:04:18,849 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-01 10:04:19,209 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-01 10:04:19,306 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-07-01 10:04:19,426 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:04:23,983 [7    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-07-01 10:04:25,443 [7    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 10:04:25,452 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.7626ms.
+INFO  2020-07-01 10:04:25,781 [7    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-07-01 10:04:25,788 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 1799.4544ms
+INFO  2020-07-01 10:04:25,791 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:04:25,815 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 10:04:25,817 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 6512.1782ms 302 
+INFO  2020-07-01 10:04:25,908 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 91.2479ms 200 text/html;charset=utf-8
+INFO  2020-07-01 10:04:26,062 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 10:04:26,069 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:04:26,085 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-07-01 10:04:26,140 [11   ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 10:04:26,141 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 10:04:26,156 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 12.8601ms.
+INFO  2020-07-01 10:04:26,245 [11   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:04:26,468 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 321.8327ms 200 application/json;charset=utf-8
+INFO  2020-07-01 10:04:26,524 [11   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 433.6007ms
+INFO  2020-07-01 10:04:26,529 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:04:26,532 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 471.7474ms 200 application/json; charset=utf-8
+INFO  2020-07-01 10:04:54,643 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 137
+INFO  2020-07-01 10:04:54,652 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:04:54,657 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:04:54,662 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:04:54,697 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 10:04:55,691 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+DEBUG 2020-07-01 10:07:56,978 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2020-07-01 10:07:57,216 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2020-07-01 10:07:57,247 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.Web.Host.Startup.ProjectWebHostModule, DEM.Project.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,250 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectWebCoreModule, DEM.Project.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectApplicationModule, DEM.Project.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.ProjectCoreModule, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,252 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,253 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: DEM.Project.EntityFrameworkCore.ProjectEntityFrameworkModule, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,254 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,255 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.9.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:57,261 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2020-07-01 10:07:57,385 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:07:57,386 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:07:57,386 [1    ] o.Configuration.LanguageManagementConfig - Converted Project (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:07:57,386 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2020-07-01 10:07:58,414 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: DEM.Project.EntityFrameworkCore.ProjectDbContext, DEM.Project.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2020-07-01 10:07:59,878 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2020-07-01 10:07:59,946 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2020-07-01 10:07:59,972 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2020-07-01 10:07:59,985 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Project
+DEBUG 2020-07-01 10:07:59,995 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2020-07-01 10:08:00,320 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2020-07-01 10:08:00,631 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[DEM.Project.MultiTenancy.Tenant, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[DEM.Project.Authorization.Users.User, DEM.Project.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2020-07-01 10:08:00,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 9 classes define auto mapping attributes
+DEBUG 2020-07-01 10:08:00,705 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2020-07-01 10:08:00,715 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.CreateUserDto
+DEBUG 2020-07-01 10:08:00,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Users.Dto.UserDto
+DEBUG 2020-07-01 10:08:00,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2020-07-01 10:08:00,716 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Sessions.Dto.UserLoginInfoDto
+DEBUG 2020-07-01 10:08:00,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Roles.Dto.PermissionDto
+DEBUG 2020-07-01 10:08:00,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.Products.Dto.ProductDto
+DEBUG 2020-07-01 10:08:00,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2020-07-01 10:08:00,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - DEM.Project.MultiTenancy.Dto.TenantDto
+INFO  2020-07-01 10:08:04,754 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2020-07-01 10:08:05,172 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\Tran Dinh Hiep\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2020-07-01 10:08:05,283 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2020-07-01 10:08:05,283 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 140
+INFO  2020-07-01 10:08:05,300 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:08:05,302 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:08:05,494 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:08:05,500 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:08:11,385 [10   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller DEM.Project.Web.Host.Controllers.HomeController (DEM.Project.Web.Host).
+INFO  2020-07-01 10:08:11,403 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 10:08:13,882 [10   ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 10:08:13,898 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 0.5677ms.
+INFO  2020-07-01 10:08:14,033 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) - Validation state: Valid
+INFO  2020-07-01 10:08:32,292 [10   ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2020-07-01 10:08:32,311 [10   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host) in 20908.9887ms
+INFO  2020-07-01 10:08:32,316 [10   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.HomeController.Index (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:08:32,367 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 27073.1918ms 302 
+INFO  2020-07-01 10:08:32,427 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 10:08:32,697 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 184.0644ms 200 text/html;charset=utf-8
+INFO  2020-07-01 10:08:32,868 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 10:08:32,877 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:08:32,894 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller DEM.Project.Web.Host.Controllers.AntiForgeryController (DEM.Project.Web.Host).
+INFO  2020-07-01 10:08:32,984 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) - Validation state: Valid
+INFO  2020-07-01 10:08:32,992 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 10:08:33,013 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host), returned result Microsoft.AspNetCore.Mvc.EmptyResult in 12.6324ms.
+INFO  2020-07-01 10:08:33,103 [15   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:08:33,175 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host) in 262.2723ms
+INFO  2020-07-01 10:08:33,213 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Web.Host.Controllers.AntiForgeryController.SetCookie (DEM.Project.Web.Host)'
+INFO  2020-07-01 10:08:33,225 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 352.5673ms 200 application/json; charset=utf-8
+INFO  2020-07-01 10:08:38,324 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 24287.4456ms.
+INFO  2020-07-01 10:08:38,423 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5431.3192ms 200 application/json;charset=utf-8
+INFO  2020-07-01 10:08:39,075 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:08:39,093 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 27675.9394ms
+INFO  2020-07-01 10:08:39,096 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:08:39,101 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 33820.3466ms 200 application/json; charset=utf-8
+INFO  2020-07-01 10:10:19,273 [5    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 25
+INFO  2020-07-01 10:10:19,276 [5    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:10:19,278 [5    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:10:19,284 [5    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application)'
+INFO  2020-07-01 10:10:19,295 [5    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(DEM.Project.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 10:10:19,331 [5    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application) - Validation state: Valid
+INFO  2020-07-01 10:10:19,395 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 61.9476ms.
+INFO  2020-07-01 10:10:19,409 [18   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:10:19,416 [18   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application) in 118.0558ms
+INFO  2020-07-01 10:10:19,420 [18   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application)'
+INFO  2020-07-01 10:10:19,422 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 149.4751ms 200 application/json; charset=utf-8
+INFO  2020-07-01 10:10:19,426 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 58
+INFO  2020-07-01 10:10:19,429 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:10:19,431 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:10:19,434 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Controllers.TokenAuthController.Authenticate (DEM.Project.Web.Core)'
+INFO  2020-07-01 10:10:19,445 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Models.TokenAuth.AuthenticateResultModel] Authenticate(DEM.Project.Models.TokenAuth.AuthenticateModel) on controller DEM.Project.Controllers.TokenAuthController (DEM.Project.Web.Core).
+INFO  2020-07-01 10:10:20,223 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Controllers.TokenAuthController.Authenticate (DEM.Project.Web.Core) - Validation state: Valid
+INFO  2020-07-01 10:10:20,867 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Controllers.TokenAuthController.Authenticate (DEM.Project.Web.Core), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 641.5385ms.
+INFO  2020-07-01 10:10:20,873 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 25
+INFO  2020-07-01 10:10:20,876 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:10:20,879 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:10:20,883 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application)'
+INFO  2020-07-01 10:10:20,907 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:10:20,943 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Controllers.TokenAuthController.Authenticate (DEM.Project.Web.Core) in 1492.7811ms
+INFO  2020-07-01 10:10:20,946 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(DEM.Project.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 10:10:20,946 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Controllers.TokenAuthController.Authenticate (DEM.Project.Web.Core)'
+INFO  2020-07-01 10:10:20,951 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1522.8604ms 200 application/json; charset=utf-8
+INFO  2020-07-01 10:10:21,012 [4    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application) - Validation state: Valid
+INFO  2020-07-01 10:10:21,014 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2020-07-01 10:10:21,031 [16   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 8.6417ms 200 text/html;charset=utf-8
+INFO  2020-07-01 10:10:21,065 [14   ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 19.3628ms.
+INFO  2020-07-01 10:10:21,083 [7    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:10:21,087 [7    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application) in 137.2582ms
+INFO  2020-07-01 10:10:21,090 [7    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application)'
+INFO  2020-07-01 10:10:21,093 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 222.8561ms 200 application/json; charset=utf-8
+INFO  2020-07-01 10:10:21,167 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2020-07-01 10:10:21,209 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2020-07-01 10:10:21,248 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-07-01 10:10:21,249 [8    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-07-01 10:10:21,483 [7    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 240.4351ms 200 application/json;charset=utf-8
+ERROR 2020-07-01 10:10:21,734 [18   ] AspNetCore.Server.IIS.Core.IISHttpServer - Connection ID "18302628895834243080", Request ID "8000000c-0002-fe00-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details.
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '1-Abp.Localization.DefaultLanguageName-3' for key 'abpsettings.IX_AbpSettings_TenantId_Name_UserId'
+ ---> MySql.Data.MySqlClient.MySqlException (0x80004005): Duplicate entry '1-Abp.Localization.DefaultLanguageName-3' for key 'abpsettings.IX_AbpSettings_TenantId_Name_UserId'
+   at MySqlConnector.Core.ServerSession.ReceiveReplyAsyncAwaited(ValueTask`1 task) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 774
+   at MySqlConnector.Core.ResultSet.ReadResultSetHeaderAsync(IOBehavior ioBehavior) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ResultSet.cs:line 49
+   at MySql.Data.MySqlClient.MySqlDataReader.ActivateResultSet() in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 116
+   at MySql.Data.MySqlClient.MySqlDataReader.CreateAsync(CommandListPosition commandListPosition, ICommandPayloadCreator payloadCreator, IDictionary`2 cachedProcedures, IMySqlCommand command, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlDataReader.cs:line 391
+   at MySqlConnector.Core.CommandExecutor.ExecuteReaderAsync(IReadOnlyList`1 commands, ICommandPayloadCreator payloadCreator, CommandBehavior behavior, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\CommandExecutor.cs:line 62
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(DbContext _, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.AbpDbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.Zero.EntityFrameworkCore.AbpZeroCommonDbContext`3.SaveChangesAsync(CancellationToken cancellationToken)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesInDbContextAsync(DbContext dbContext)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.SaveChangesAsync()
+   at Abp.Configuration.SettingStore.CreateAsync(SettingInfo settingInfo)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous(IInvocation invocation)
+   at Abp.Configuration.SettingManager.InsertOrUpdateOrDeleteSettingValueAsync(String name, String value, Nullable`1 tenantId, Nullable`1 userId)
+   at Abp.Configuration.SettingManager.ChangeSettingForUserAsync(UserIdentifier user, String name, String value)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous(IInvocation invocation)
+   at Abp.AspNetCore.Localization.AbpUserRequestCultureProvider.DetermineProviderCultureResult(HttpContext httpContext)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Abp.AspNetCore.Security.AbpSecurityHeadersMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+INFO  2020-07-01 10:10:21,748 [18   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 580.0711ms 500 
+INFO  2020-07-01 10:10:44,761 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 139
+INFO  2020-07-01 10:10:44,768 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:10:44,770 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:10:44,776 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-07-01 10:10:44,795 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:10:44,805 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+ERROR 2020-07-01 10:10:44,808 [4    ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 10:10:44,812 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-07-01 10:10:44,822 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-07-01 10:10:44,824 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 16.5476ms
+INFO  2020-07-01 10:10:44,826 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:10:44,830 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 72.2917ms 400 
+INFO  2020-07-01 10:10:46,819 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 139
+INFO  2020-07-01 10:10:46,822 [4    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:10:46,825 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:10:46,836 [4    ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-07-01 10:10:46,839 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:10:46,847 [4    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+ERROR 2020-07-01 10:10:46,851 [4    ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 10:10:46,854 [4    ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-07-01 10:10:46,857 [4    ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-07-01 10:10:46,860 [4    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 8.9186ms
+INFO  2020-07-01 10:10:46,862 [4    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:10:46,871 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 56.9093ms 400 
+INFO  2020-07-01 10:10:50,084 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/Register application/json-patch+json 139
+INFO  2020-07-01 10:10:50,092 [15   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:10:50,095 [15   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:10:50,101 [15   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2020-07-01 10:10:50,105 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:10:50,122 [15   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Register", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.RegisterOutput] Register(DEM.Project.Authorization.Accounts.Dto.RegisterInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+ERROR 2020-07-01 10:10:50,127 [15   ] idateAntiforgeryTokenAuthorizationFilter - The provided antiforgery token was meant for a different claims-based user than the current user.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The provided antiforgery token was meant for a different claims-based user than the current user.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateTokens(HttpContext httpContext, AntiforgeryTokenSet antiforgeryTokenSet)
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Abp.AspNetCore.Mvc.Antiforgery.AbpValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+INFO  2020-07-01 10:10:50,137 [15   ] c.Infrastructure.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Antiforgery.AbpAutoValidateAntiforgeryTokenAuthorizationFilter'.
+INFO  2020-07-01 10:10:50,140 [15   ] icrosoft.AspNetCore.Mvc.StatusCodeResult - Executing HttpStatusCodeResult, setting HTTP status code 400
+INFO  2020-07-01 10:10:50,143 [15   ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application) in 18.3042ms
+INFO  2020-07-01 10:10:50,146 [15   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.Register (DEM.Project.Application)'
+INFO  2020-07-01 10:10:50,154 [15   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 69.4781ms 400 
+INFO  2020-07-01 10:11:01,852 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/services/app/Account/IsTenantAvailable application/json 21
+INFO  2020-07-01 10:11:01,856 [8    ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2020-07-01 10:11:01,859 [8    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2020-07-01 10:11:01,865 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application)'
+INFO  2020-07-01 10:11:01,874 [8    ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "IsTenantAvailable", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[DEM.Project.Authorization.Accounts.Dto.IsTenantAvailableOutput] IsTenantAvailable(DEM.Project.Authorization.Accounts.Dto.IsTenantAvailableInput) on controller DEM.Project.Authorization.Accounts.AccountAppService (DEM.Project.Application).
+INFO  2020-07-01 10:11:01,936 [8    ] c.Infrastructure.ControllerActionInvoker - Executing action method DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application) - Validation state: Valid
+INFO  2020-07-01 10:11:01,950 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action method DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 7.6162ms.
+INFO  2020-07-01 10:11:01,975 [8    ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2020-07-01 10:11:01,981 [8    ] c.Infrastructure.ControllerActionInvoker - Executed action DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application) in 102.5817ms
+INFO  2020-07-01 10:11:01,984 [8    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'DEM.Project.Authorization.Accounts.AccountAppService.IsTenantAvailable (DEM.Project.Application)'
+INFO  2020-07-01 10:11:01,987 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 134.3463ms 200 application/json; charset=utf-8
